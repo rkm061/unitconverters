@@ -1,0 +1,377 @@
+{
+    "length": {
+        "name": "Length",
+        "type": "linear",
+        "units": {
+            "meter": {
+                "name": "Meter (m)",
+                "factor": 1
+            },
+            "kilometer": {
+                "name": "Kilometer (km)",
+                "factor": 1000
+            },
+            "centimeter": {
+                "name": "Centimeter (cm)",
+                "factor": 0.01
+            },
+            "millimeter": {
+                "name": "Millimeter (mm)",
+                "factor": 0.001
+            },
+            "mile": {
+                "name": "Mile (mi)",
+                "factor": 1609.344
+            },
+            "yard": {
+                "name": "Yard (yd)",
+                "factor": 0.9144
+            },
+            "foot": {
+                "name": "Foot (ft)",
+                "factor": 0.3048
+            },
+            "inch": {
+                "name": "Inch (in)",
+                "factor": 0.0254
+            }
+        }
+    },
+    "weight": {
+        "name": "Weight",
+        "type": "linear",
+        "units": {
+            "kilogram": {
+                "name": "Kilogram (kg)",
+                "factor": 1
+            },
+            "gram": {
+                "name": "Gram (g)",
+                "factor": 0.001
+            },
+            "milligram": {
+                "name": "Milligram (mg)",
+                "factor": 0.000001
+            },
+            "pound": {
+                "name": "Pound (lb)",
+                "factor": 0.453592
+            },
+            "ounce": {
+                "name": "Ounce (oz)",
+                "factor": 0.0283495
+            },
+            "ton": {
+                "name": "Ton (t)",
+                "factor": 1000
+            }
+        }
+    },
+    "temperature": {
+        "name": "Temperature",
+        "type": "temperature",
+        "units": {
+            "celsius": {
+                "name": "Celsius (°C)"
+            },
+            "fahrenheit": {
+                "name": "Fahrenheit (°F)"
+            },
+            "kelvin": {
+                "name": "Kelvin (K)"
+            }
+        }
+    },
+    "area": {
+        "name": "Area",
+        "type": "linear",
+        "units": {
+            "square-meter": {
+                "name": "Square Meter (m²)",
+                "factor": 1
+            },
+            "square-kilometer": {
+                "name": "Square Kilometer (km²)",
+                "factor": 1000000
+            },
+            "square-mile": {
+                "name": "Square Mile (mi²)",
+                "factor": 2589988.11
+            },
+            "square-yard": {
+                "name": "Square Yard (yd²)",
+                "factor": 0.836127
+            },
+            "square-foot": {
+                "name": "Square Foot (ft²)",
+                "factor": 0.092903
+            },
+            "square-inch": {
+                "name": "Square Inch (in²)",
+                "factor": 0.00064516
+            },
+            "acre": {
+                "name": "Acre",
+                "factor": 4046.86
+            },
+            "hectare": {
+                "name": "Hectare (ha)",
+                "factor": 10000
+            }
+        }
+    },
+    "volume": {
+        "name": "Volume",
+        "type": "linear",
+        "units": {
+            "liter": {
+                "name": "Liter (L)",
+                "factor": 1
+            },
+            "milliliter": {
+                "name": "Milliliter (mL)",
+                "factor": 0.001
+            },
+            "cubic-meter": {
+                "name": "Cubic Meter (m³)",
+                "factor": 1000
+            },
+            "cubic-centimeter": {
+                "name": "Cubic Centimeter (cm³)",
+                "factor": 0.001
+            },
+            "gallon": {
+                "name": "Gallon (gal)",
+                "factor": 3.78541
+            },
+            "quart": {
+                "name": "Quart (qt)",
+                "factor": 0.946353
+            },
+            "pint": {
+                "name": "Pint (pt)",
+                "factor": 0.473176
+            },
+            "cup": {
+                "name": "Cup",
+                "factor": 0.236588
+            },
+            "fluid-ounce": {
+                "name": "Fluid Ounce (fl oz)",
+                "factor": 0.0295735
+            },
+            "tablespoon": {
+                "name": "Tablespoon (tbsp)",
+                "factor": 0.0147868
+            },
+            "teaspoon": {
+                "name": "Teaspoon (tsp)",
+                "factor": 0.00492892
+            }
+        }
+    },
+    "time": {
+        "name": "Time",
+        "type": "linear",
+        "units": {
+            "second": {
+                "name": "Second (s)",
+                "factor": 1
+            },
+            "millisecond": {
+                "name": "Millisecond (ms)",
+                "factor": 0.001
+            },
+            "minute": {
+                "name": "Minute (min)",
+                "factor": 60
+            },
+            "hour": {
+                "name": "Hour (hr)",
+                "factor": 3600
+            },
+            "day": {
+                "name": "Day",
+                "factor": 86400
+            },
+            "week": {
+                "name": "Week",
+                "factor": 604800
+            },
+            "month": {
+                "name": "Month (30 days)",
+                "factor": 2592000
+            },
+            "year": {
+                "name": "Year (365 days)",
+                "factor": 31536000
+            }
+        }
+    },
+    "speed": {
+        "name": "Speed",
+        "type": "linear",
+        "units": {
+            "meter-per-second": {
+                "name": "Meter per Second (m/s)",
+                "factor": 1
+            },
+            "kilometer-per-hour": {
+                "name": "Kilometer per Hour (km/h)",
+                "factor": 0.277778
+            },
+            "mile-per-hour": {
+                "name": "Mile per Hour (mph)",
+                "factor": 0.44704
+            },
+            "knot": {
+                "name": "Knot (kt)",
+                "factor": 0.514444
+            },
+            "foot-per-second": {
+                "name": "Foot per Second (ft/s)",
+                "factor": 0.3048
+            }
+        }
+    },
+    "pressure": {
+        "name": "Pressure",
+        "type": "linear",
+        "units": {
+            "pascal": {
+                "name": "Pascal (Pa)",
+                "factor": 1
+            },
+            "hectopascal": {
+                "name": "Hectopascal (hPa)",
+                "factor": 100
+            },
+            "kilopascal": {
+                "name": "Kilopascal (kPa)",
+                "factor": 1000
+            },
+            "bar": {
+                "name": "Bar",
+                "factor": 100000
+            },
+            "millibar": {
+                "name": "Millibar (mbar)",
+                "factor": 100
+            },
+            "atmosphere": {
+                "name": "Atmosphere (atm)",
+                "factor": 101325
+            },
+            "torr": {
+                "name": "Torr",
+                "factor": 133.322
+            }
+        }
+    },
+    "energy": {
+        "name": "Energy",
+        "type": "linear",
+        "units": {
+            "joule": {
+                "name": "Joule (J)",
+                "factor": 1
+            },
+            "kilojoule": {
+                "name": "Kilojoule (kJ)",
+                "factor": 1000
+            },
+            "calorie": {
+                "name": "Calorie (cal)",
+                "factor": 4.184
+            },
+            "kilocalorie": {
+                "name": "Kilocalorie (kcal)",
+                "factor": 4184
+            },
+            "watt-hour": {
+                "name": "Watt-hour (Wh)",
+                "factor": 3600
+            },
+            "kilowatt-hour": {
+                "name": "Kilowatt-hour (kWh)",
+                "factor": 3600000
+            }
+        }
+    },
+    "power": {
+        "name": "Power",
+        "type": "linear",
+        "units": {
+            "watt": {
+                "name": "Watt (W)",
+                "factor": 1
+            },
+            "kilowatt": {
+                "name": "Kilowatt (kW)",
+                "factor": 1000
+            },
+            "horsepower": {
+                "name": "Horsepower (hp)",
+                "factor": 745.7
+            }
+        }
+    },
+    "frequency": {
+        "name": "Frequency",
+        "type": "linear",
+        "units": {
+            "hertz": {
+                "name": "Hertz (Hz)",
+                "factor": 1
+            },
+            "kilohertz": {
+                "name": "Kilohertz (kHz)",
+                "factor": 1000
+            },
+            "megahertz": {
+                "name": "Megahertz (MHz)",
+                "factor": 1000000
+            },
+            "gigahertz": {
+                "name": "Gigahertz (GHz)",
+                "factor": 1000000000
+            }
+        }
+    },
+    "electric-current": {
+        "name": "Electric Current",
+        "type": "linear",
+        "units": {
+            "ampere": {
+                "name": "Ampere (A)",
+                "factor": 1
+            },
+            "milliampere": {
+                "name": "Milliampere (mA)",
+                "factor": 0.001
+            },
+            "microampere": {
+                "name": "Microampere (µA)",
+                "factor": 0.000001
+            }
+        }
+    },
+    "voltage": {
+        "name": "Voltage",
+        "type": "linear",
+        "units": {
+            "volt": {
+                "name": "Volt (V)",
+                "factor": 1
+            },
+            "millivolt": {
+                "name": "Millivolt (mV)",
+                "factor": 0.001
+            },
+            "kilovolt": {
+                "name": "Kilovolt (kV)",
+                "factor": 1000
+            }
+        }
+    }
+}

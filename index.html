@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free online universal unit converter for length, weight, temperature, area, volume, and more. Fast, accurate conversions with copy functionality.">
+    <meta name="keywords" content="unit converter, measurement converter, length converter, weight converter, temperature converter, online calculator">
+    <title>Universal Unit Converter | Convert Any Measurement Unit Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://yourdomain.com/unit-converter/" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Universal Unit Converter</h1>
+        <p>Convert between any measurement units instantly</p>
+    </header>
+
+    <!-- Ad Banner Top -->
+    <!-- <div class="ad-banner-top"> -->
+        <!-- Ad space will be filled dynamically -->
+        <!-- <div class="ad-placeholder">Advertisement</div> -->
+    <!-- </div> -->
+
+    <main>
+        <!-- First Row: Categories -->
+        <section class="category-row">
+            <h2 class="visually-hidden">Conversion Categories</h2>
+            <div class="category-container" id="categoryContainer">
+                <!-- Categories will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Second Row: Category Search (when no category selected) -->
+        <section class="search-row" id="categorySearchRow">
+            <label for="categorySearch">Search Category:</label>
+            <input type="text" id="categorySearch" placeholder="Type to search categories...">
+            <div class="search-results" id="categorySearchResults"></div>
+        </section>
+
+        <!-- Third Row: Value Input -->
+        <section class="input-row">
+            <div class="value-input">
+                <label for="inputValue">Value:</label>
+                <input type="number" id="inputValue" placeholder="Enter Value" step="any" value="1">
+            </div>
+            <div class="unit-input">
+                <label for="inputUnit">From Unit:</label>
+                <input type="text" id="inputUnit" placeholder="Select unit" disabled>
+                <div class="unit-results" id="unitResults"></div>
+            </div>
+        </section>
+
+        <!-- Fourth Row: Converted Results -->
+        <section class="results-row">
+            <h2 id="resultsHeading">Conversion Results</h2>
+            <div class="results-container" id="resultsContainer">
+                <p class="no-results">Select a category, enter a value and unit to see conversions.</p>
+            </div>
+        </section>
+
+        <!-- Fifth Row: Conversion Table -->
+        <section class="table-row">
+            <h2 id="tableHeading">Standard Conversion Table</h2>
+            <div class="table-container" id="tableContainer">
+                <p>Select a category to view standard conversion rates.</p>
+            </div>
+        </section>
+
+        <!-- Square Ad -->
+        <div class="ad-square">
+            <div class="ad-placeholder">Advertisement</div>
+        </div>
+
+        <!-- Sixth Row: History -->
+        <section class="history-row">
+            <h2>Conversion History</h2>
+            <div class="history-container" id="historyContainer">
+                <p>Your recent conversions will appear here.</p>
+            </div>
+            <button id="clearHistory" class="btn">Clear History</button>
+        </section>
+    </main>
+
+    <!-- Seventh Row: Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="currentYear"></span> Universal Unit Converter. All rights reserved.</p>
+            <nav>
+                <ul>
+                    <li><a href="/privacy">Privacy Policy</a></li>
+                    <li><a href="/terms">Terms of Service</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- Structured data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Universal Unit Converter",
+        "description": "Free online universal unit converter for length, weight, temperature, area, volume, and more.",
+        "url": "https://yourdomain.com/unit-converter/",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "Web Browser"
+    }
+    </script>
+</body>
+</html>
